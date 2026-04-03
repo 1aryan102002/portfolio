@@ -27,10 +27,23 @@
                 would love the chance to bring that same energy to any next big idea—you can check out my work through
                 the link below Thank you for visiting !" .</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <a class="btn btn-primary btn-lg px-4 gap-3" href="./index.html">View Portfolio</a>
+                <a class="btn btn-primary btn-lg px-4 gap-3" href="./index.html" id="enterPortfolioBtn">View
+                    Portfolio</a>
             </div>
         </div>
     </div>
+    <script>
+        (function () {
+            const btn = document.getElementById('enterPortfolioBtn');
+            if (!btn) return;
+            btn.addEventListener('click', function () {
+                try {
+                    localStorage.setItem('portfolioHeroSeen', '1');
+                } catch (e) {
+                }
+            });
+        })();
+    </script>
 </body>
 
 
