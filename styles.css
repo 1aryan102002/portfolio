@@ -1,0 +1,68 @@
+:root {
+  --surface: rgba(255, 255, 255, 0.06);
+  --surface-strong: rgba(255, 255, 255, 0.1);
+  --border: rgba(255, 255, 255, 0.12);
+  --text-dim: rgba(255, 255, 255, 0.7);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 96px;
+}
+
+.surface {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+}
+
+.surface-strong {
+  background: var(--surface-strong);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+}
+
+.btn-soft {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: white;
+}
+
+.btn-soft:hover {
+  background: var(--surface-strong);
+  color: white;
+}
+
+.project-card {
+  transition: transform 150ms ease, box-shadow 150ms ease, background 150ms ease;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+}
+
+.timeline {
+  border-left: 1px solid var(--border);
+  padding-left: 16px;
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -23px;
+  top: 4px;
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: white;
+  opacity: 0.9;
+}
+

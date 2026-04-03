@@ -1,0 +1,51 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1220 160) rotate(140) scale(760 620)">
+      <stop stop-color="#60A5FA" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#60A5FA" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop stop-color="#94A3B8" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#94A3B8" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#94A3B8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" rx="48" fill="url(#bg)"/>
+  <rect width="1600" height="900" rx="48" fill="url(#glow)"/>
+
+  <g opacity="0.55">
+    <path d="M80 160H1520" stroke="url(#line)" stroke-width="2"/>
+    <path d="M80 280H1520" stroke="url(#line)" stroke-width="2"/>
+    <path d="M80 400H1520" stroke="url(#line)" stroke-width="2"/>
+    <path d="M80 520H1520" stroke="url(#line)" stroke-width="2"/>
+    <path d="M80 640H1520" stroke="url(#line)" stroke-width="2"/>
+    <path d="M80 760H1520" stroke="url(#line)" stroke-width="2"/>
+  </g>
+
+  <g opacity="0.28">
+    <path d="M160 80V820" stroke="url(#line)" stroke-width="2"/>
+    <path d="M360 80V820" stroke="url(#line)" stroke-width="2"/>
+    <path d="M560 80V820" stroke="url(#line)" stroke-width="2"/>
+    <path d="M760 80V820" stroke="url(#line)" stroke-width="2"/>
+    <path d="M960 80V820" stroke="url(#line)" stroke-width="2"/>
+    <path d="M1160 80V820" stroke="url(#line)" stroke-width="2"/>
+    <path d="M1360 80V820" stroke="url(#line)" stroke-width="2"/>
+  </g>
+
+  <g>
+    <circle cx="270" cy="240" r="70" fill="#2563EB" fill-opacity="0.22"/>
+    <path d="M270 190c-27.6 0-50 22.4-50 50 0 41.4 50 87.5 50 87.5S320 281.4 320 240c0-27.6-22.4-50-50-50z" fill="#60A5FA" fill-opacity="0.75"/>
+    <path d="M270 220c-11 0-20 9-20 20s9 20 20 20 20-9 20-20-9-20-20-20z" fill="#0F172A" fill-opacity="0.85"/>
+  </g>
+
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji" text-anchor="middle">
+    <text x="800" y="440" font-size="84" font-weight="800" fill="#E2E8F0">DoClinic</text>
+  </g>
+
+  <rect x="28" y="28" width="1544" height="844" rx="40" stroke="#94A3B8" stroke-opacity="0.18" stroke-width="2"/>
+</svg>
